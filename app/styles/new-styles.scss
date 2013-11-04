@@ -6,20 +6,20 @@ $nav-and-subheader: rgb(0, 50, 83);
 
 @font-face {
     font-family: 'Asap';
-    src: url('fonts/asap/Asap-Regular.otf');
-    src: local('Asap'), local('Asap'), url('fonts/asap/Asap-Regular.otf') format('truetype');
+    src: url('../fonts/asap/Asap-Regular.otf');
+    src: local('Asap'), local('Asap'), url('../fonts/asap/Asap-Regular.otf') format('truetype');
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('fonts/oswald/Oswald-Regular.otf');
-    src: local('Oswald'), local('Oswald'), url('fonts/oswald/Oswald-Regular.otf') format('truetype');
+    src: url('../fonts/oswald/Oswald-Regular.otf');
+    src: local('Oswald'), local('Oswald'), url('../fonts/oswald/Oswald-Regular.otf') format('truetype');
 }
 
 @font-face {
     font-family: 'Oswald-Light';
-    src: url('fonts/oswald/Oswald-Light.otf');
-    src: local('Oswald'), local('Oswald'), url('fonts/oswald/Oswald-Light.otf') format('truetype');
+    src: url('../fonts/oswald/Oswald-Light.otf');
+    src: local('Oswald'), local('Oswald'), url('../fonts/oswald/Oswald-Light.otf') format('truetype');
 }
 
 * {
@@ -471,8 +471,7 @@ hr {
 
 		.pic-one {
 			height: 400px;
-			background: url('../images/dos-equis.jpg') no-repeat center center;
-			background-size: cover;		}
+		}
 
 		.pic-two {
 			height: 338px;
